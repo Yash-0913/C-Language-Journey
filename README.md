@@ -1,26 +1,12 @@
-# 🔧 C Language Learning Repository
+This repository contains my learning journey through the C programming language.  
+It includes lecture notes, exercises, and small projects as I build my understanding of core concepts.
 
-Welcome to my C programming journey! This repository contains all my learning material, exercises, and mini-projects while studying C.
+## Structure
 
-## 📂 Repository Structure
-
-- `notes/` – Lecture-wise source code with comments and examples.
-- `exercises/` – Practice problems and small functional programs (e.g., matrix multiplication, prime checker).
-- `projects/` – Mini projects like:
-  - Rock-Paper-Scissors Game
-  - Guess the Number
-  - Simple Calculator
-
-## 🧠 Goals
-
-- Build a strong foundation in C.
-- Practice problem-solving and code clarity.
-- Create useful reference material for future learning.
-
-## 🚀 How to Use
-
-Feel free to explore the code, run the programs, and use the notes as a reference. Contributions and suggestions are always welcome!
+- 📒 `notes/`: Annotated lecture notes with example code
+- 💪 `exercises/`: Small practice problems for key concepts
+- 🛠️ `projects/`: Mini-projects like Guessing Game, RPS, Calculator, etc.
 
 ---
 
-> ⚠️ This repository is a personal learning archive and may contain beginner-level code.
+Learning C one step at a time. 💻✨
