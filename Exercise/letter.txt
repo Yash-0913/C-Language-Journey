@@ -1,0 +1,7 @@
+Thank you for shopping with {{outlet}}!
+
+Customer Name: {{name}}
+Item Purchased: {{item}}
+Total Amount: ₹{{amount}}
+
+We hope to see you again!
