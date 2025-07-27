@@ -1,0 +1,28 @@
+🔹 FUNCTION POINTERS IN C - LEC 72
+
+📌 What is a function pointer?
+- A function pointer stores the address of a function.
+- It can be used to call functions indirectly.
+
+📌 Syntax:
+    return_type (*pointer_name)(arg_type1, arg_type2, ...);
+
+📌 Example:
+    int add(int a, int b);
+    int (*ptr)(int, int) = add;
+    int result = ptr(2, 3); // calls add(2, 3)
+
+📌 Why use function pointers?
+- To pass a function as a parameter
+- Useful in callback mechanisms
+- Helps in implementing function tables or menu systems
+
+📌 Passing function pointer to another function:
+    void print_result(int (*fptr)(int, int), int x, int y) {
+        printf("%d\n", fptr(x, y));
+    }
+
+✅ Applications:
+- Sorting algorithms (like qsort in stdlib.h)
+- Event handling
+- Command processing
